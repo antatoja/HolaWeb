@@ -2,12 +2,29 @@
 @model HolaWeb.App.Frontend.Pages.ListModel
 @{
 }
-<h1>Listado De Saludos</h1>
+<h1>Listado De Saludos En Varios Idiomas</h1>
+
+<form method="get">
+    <div class="form-group">
+        <p>
+            Saludo: <input type="text" name="filtroBusqueda" asp-for="FiltroBusqueda"/>
+            <input type="submit" value="Filtrar" />
+        </p>
+</form>
+
 <table class="table">
-    @foreach (var saludo in Model.ListaSaludos)
+    @foreach (var saludo in Model.Saludos)
     {
         <tr>
-            <td>@saludo</td>
+            <td>@saludo.EnEspañol</td>
+            <td>@saludo.EnIngles</td>
+            <td>@saludo.EnItaliano</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-saludiId="@saludo.Id">
+                <i class="fas fa-info-circle"> </i>
+                Detalle Saludo
+                </a>
+            </td>
         </tr>
     }
 </table>

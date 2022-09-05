@@ -24,3 +24,8 @@ C:\HolaWeb\HolaWeb.App\HolaWeb.App.Frontend\obj\Debug\net6.0\refint\HolaWeb.App.
 C:\HolaWeb\HolaWeb.App\HolaWeb.App.Frontend\obj\Debug\net6.0\HolaWeb.App.Frontend.pdb
 C:\HolaWeb\HolaWeb.App\HolaWeb.App.Frontend\obj\Debug\net6.0\HolaWeb.App.Frontend.genruntimeconfig.cache
 C:\HolaWeb\HolaWeb.App\HolaWeb.App.Frontend\obj\Debug\net6.0\ref\HolaWeb.App.Frontend.dll
+C:\HolaWeb\HolaWeb.App\HolaWeb.App.Frontend\bin\Debug\net6.0\HolaWeb.App.Dominio.dll
+C:\HolaWeb\HolaWeb.App\HolaWeb.App.Frontend\bin\Debug\net6.0\HolaWeb.App.Persistencia.dll
+C:\HolaWeb\HolaWeb.App\HolaWeb.App.Frontend\bin\Debug\net6.0\HolaWeb.App.Persistencia.pdb
+C:\HolaWeb\HolaWeb.App\HolaWeb.App.Frontend\bin\Debug\net6.0\HolaWeb.App.Dominio.pdb
+C:\HolaWeb\HolaWeb.App\HolaWeb.App.Frontend\obj\Debug\net6.0\HolaWeb.App.Frontend.csproj.CopyComplete
