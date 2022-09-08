@@ -120,11 +120,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Dominio\\HolaWeb.App.Dominio.csproj",
+      "projectUniqueName": "C:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Dominio\\HolaWeb.App.Dominio.csproj",
       "projectName": "HolaWeb.App.Dominio",
-      "projectPath": "c:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Dominio\\HolaWeb.App.Dominio.csproj",
+      "projectPath": "C:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Dominio\\HolaWeb.App.Dominio.csproj",
       "packagesPath": "C:\\Users\\SamuelC\\.nuget\\packages\\",
-      "outputPath": "c:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Dominio\\obj\\",
+      "outputPath": "C:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SamuelC\\AppData\\Roaming\\NuGet\\NuGet.Config"

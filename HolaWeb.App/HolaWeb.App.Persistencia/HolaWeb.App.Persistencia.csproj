@@ -4,7 +4,7 @@
     <ProjectReference Include="..\HolaWeb.App.Dominio\HolaWeb.App.Dominio.csproj" />
   </ItemGroup>
 
-  <PropertyGroup>
+    <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>

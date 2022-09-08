@@ -9,7 +9,8 @@ namespace HolaWeb.App.Persistencia.AppRepositorios
     {
         List<Saludo> saludos;
 
-        public RepositorioSaludosMemoria()
+    public RepositorioSaludosMemoria()
+         
         {
             saludos = new List<Saludo>()
             {
@@ -22,9 +23,9 @@ namespace HolaWeb.App.Persistencia.AppRepositorios
 
         public Saludo Add(Saludo nuevoSaludo)
         {
-            nuevoSaludo.Id = saludos.Max(r => r.Id) + 1;
-            saludos.Add(nuevoSaludo);
-            return nuevoSaludo;
+           nuevoSaludo.Id=saludos.Max(r => r.Id) +1; 
+           saludos.Add(nuevoSaludo);
+           return nuevoSaludo;
         }
 
         public IEnumerable<Saludo> GetAll()
@@ -44,7 +45,7 @@ namespace HolaWeb.App.Persistencia.AppRepositorios
             {
                 if (!String.IsNullOrEmpty(filtro)) // Si el filtro tiene algun valor
                 {
-                    saludos = saludos.Where(s => s.EnEspañol.Contains(filtro));
+                    saludos = saludos.Where(s => s.EnEspañol.Contains(filtro)); 
                     /// <summary>
                     /// Filtra los mensajes que contienen el filtro
                     /// </summary>
@@ -55,15 +56,15 @@ namespace HolaWeb.App.Persistencia.AppRepositorios
 
         public Saludo Update(Saludo saludoActualizado)
         {
-            var saludo = saludos.SingleOrDefault(r => r.Id == saludoActualizado.Id);
-            if (saludo != null)
+            var saludo= saludos.SingleOrDefault(r => r.Id==saludoActualizado.Id);
+            if (saludo!=null)
             {
                 saludo.EnEspañol = saludoActualizado.EnEspañol;
-                saludo.EnIngles = saludoActualizado.EnIngles;
-                saludo.EnItaliano = saludoActualizado.EnItaliano;
+                saludo.EnIngles=saludoActualizado.EnIngles;
+                saludo.EnItaliano=saludoActualizado.EnItaliano;
             }
             return saludo;
         }
-
+          
     }
 }

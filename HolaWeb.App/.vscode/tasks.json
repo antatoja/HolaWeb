@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/HolaWeb.App/HolaWeb.App.Frontend/HolaWeb.App.Frontend.csproj",
+                "${workspaceFolder}/HolaWeb.App.Frontend/HolaWeb.App.Frontend.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/HolaWeb.App/HolaWeb.App.Frontend/HolaWeb.App.Frontend.csproj",
+                "${workspaceFolder}/HolaWeb.App.Frontend/HolaWeb.App.Frontend.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,8 +32,9 @@
             "args": [
                 "watch",
                 "run",
-                "--project",
-                "${workspaceFolder}/HolaWeb.App/HolaWeb.App.Frontend/HolaWeb.App.Frontend.csproj"
+                "${workspaceFolder}/HolaWeb.App.Frontend/HolaWeb.App.Frontend.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
         }
