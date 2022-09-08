@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OuW1Hpq3K0ZYFRbHPwc4Pr1NPFMhRmxoDgc78mXiA1gJJYOtvrMQ40rl70J9QgICvijYQOGX7cxoGKO3qYGKQA==",
+  "dgSpecHash": "AM6rM8WJT3epsXbCgAvUnKZfLNEqnJKe166S/PECTMJoOmooFpRx9v1i4ZhTP9hs8lhsnKx+CugTK6qZmJpaDA==",
   "success": true,
   "projectFilePath": "C:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Persistencia\\HolaWeb.App.Persistencia.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\SamuelC\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

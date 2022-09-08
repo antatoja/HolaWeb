@@ -6,10 +6,9 @@ namespace HolaWeb.App.Persistencia.AppRepositorios
     public interface IRepositorioSaludos
     {
         IEnumerable<Saludo> GetAll();
-        
         IEnumerable<Saludo> GetSaludosPorFiltro(string filtro);
-
-        Saludo  GetSaludosPorId (int saludoId);
-
+        Saludo GetSaludoPorId(int saludoID);
+        Saludo Update(Saludo saludoActualizado);
+        Saludo Add(Saludo nuevoSaludo);
     }
 }

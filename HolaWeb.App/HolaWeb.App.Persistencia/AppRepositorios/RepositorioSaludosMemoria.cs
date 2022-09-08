@@ -1,9 +1,7 @@
-using System.Collections.Generic;
-using HolaWeb.App.Dominio;
-using System.Linq;
 using System;
-
-
+using System.Collections.Generic;
+using System.Linq;
+using HolaWeb.App.Dominio;
 
 namespace HolaWeb.App.Persistencia.AppRepositorios
 {
@@ -21,20 +19,28 @@ namespace HolaWeb.App.Persistencia.AppRepositorios
 
             };
         }
+
+        public Saludo Add(Saludo nuevoSaludo)
+        {
+            nuevoSaludo.Id = saludos.Max(r => r.Id) + 1;
+            saludos.Add(nuevoSaludo);
+            return nuevoSaludo;
+        }
+
         public IEnumerable<Saludo> GetAll()
         {
             return saludos;
         }
 
-        public Saludo GetSaludosPorId(int saludoId)
+        public Saludo GetSaludoPorId(int saludoId)
         {
-            return saludos.SingleOrDefault(S => S.Id == saludoId);
+            return saludos.SingleOrDefault(s => s.Id==saludoId);
         }
-        
-        public IEnumerable<Saludo> GetSaludosPorFiltro(string filtro = null) // la asignación filtro=null indica que el parámetro filtro es opcional
+
+        public IEnumerable<Saludo> GetSaludosPorFiltro(string filtro=null) // el parámetro es opcional 
         {
             var saludos = GetAll(); // Obtiene todos los saludos
-            if (saludos != null) //Si se tienen saludos
+            if (saludos != null)  //Si se tienen saludos
             {
                 if (!String.IsNullOrEmpty(filtro)) // Si el filtro tiene algun valor
                 {
@@ -47,6 +53,17 @@ namespace HolaWeb.App.Persistencia.AppRepositorios
             return saludos;
         }
 
+        public Saludo Update(Saludo saludoActualizado)
+        {
+            var saludo = saludos.SingleOrDefault(r => r.Id == saludoActualizado.Id);
+            if (saludo != null)
+            {
+                saludo.EnEspañol = saludoActualizado.EnEspañol;
+                saludo.EnIngles = saludoActualizado.EnIngles;
+                saludo.EnItaliano = saludoActualizado.EnItaliano;
+            }
+            return saludo;
+        }
 
     }
 }
