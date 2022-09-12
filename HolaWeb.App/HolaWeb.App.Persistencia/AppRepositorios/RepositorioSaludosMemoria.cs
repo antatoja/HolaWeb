@@ -9,8 +9,7 @@ namespace HolaWeb.App.Persistencia.AppRepositorios
     {
         List<Saludo> saludos;
 
-    public RepositorioSaludosMemoria()
-         
+        public RepositorioSaludosMemoria()
         {
             saludos = new List<Saludo>()
             {

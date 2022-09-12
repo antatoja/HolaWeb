@@ -16,13 +16,3 @@ C:\HolaWeb_funciona_semana5\HolaWeb.App\HolaWeb.App.Dominio\obj\Debug\netstandar
 C:\HolaWeb_funciona_semana5\HolaWeb.App\HolaWeb.App.Dominio\obj\Debug\netstandard2.0\HolaWeb.App.Dominio.csproj.CoreCompileInputs.cache
 C:\HolaWeb_funciona_semana5\HolaWeb.App\HolaWeb.App.Dominio\obj\Debug\netstandard2.0\HolaWeb.App.Dominio.dll
 C:\HolaWeb_funciona_semana5\HolaWeb.App\HolaWeb.App.Dominio\obj\Debug\netstandard2.0\HolaWeb.App.Dominio.pdb
-C:\sem5\HolaWeb.App\HolaWeb.App.Dominio\bin\Debug\netstandard2.0\HolaWeb.App.Dominio.deps.json
-C:\sem5\HolaWeb.App\HolaWeb.App.Dominio\bin\Debug\netstandard2.0\HolaWeb.App.Dominio.dll
-C:\sem5\HolaWeb.App\HolaWeb.App.Dominio\bin\Debug\netstandard2.0\HolaWeb.App.Dominio.pdb
-C:\sem5\HolaWeb.App\HolaWeb.App.Dominio\obj\Debug\netstandard2.0\HolaWeb.App.Dominio.csproj.AssemblyReference.cache
-C:\sem5\HolaWeb.App\HolaWeb.App.Dominio\obj\Debug\netstandard2.0\HolaWeb.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
-C:\sem5\HolaWeb.App\HolaWeb.App.Dominio\obj\Debug\netstandard2.0\HolaWeb.App.Dominio.AssemblyInfoInputs.cache
-C:\sem5\HolaWeb.App\HolaWeb.App.Dominio\obj\Debug\netstandard2.0\HolaWeb.App.Dominio.AssemblyInfo.cs
-C:\sem5\HolaWeb.App\HolaWeb.App.Dominio\obj\Debug\netstandard2.0\HolaWeb.App.Dominio.csproj.CoreCompileInputs.cache
-C:\sem5\HolaWeb.App\HolaWeb.App.Dominio\obj\Debug\netstandard2.0\HolaWeb.App.Dominio.dll
-C:\sem5\HolaWeb.App\HolaWeb.App.Dominio\obj\Debug\netstandard2.0\HolaWeb.App.Dominio.pdb
